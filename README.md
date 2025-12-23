@@ -37,7 +37,7 @@ This project is designed for beginners in Security Operations (SOC) who want to 
 Defense Evasion using command obfuscation
 Detection of encoded PowerShell execution
 
-  [Task1 powershell base64 encoded command](Task1/Readme.md)
+  [Task1 powershell base64 encoded command](Task1/README.md)
   
 • Task 2 – Brute-Force Attack with Successful Login
 Initial Access via valid domain account
