@@ -37,19 +37,19 @@ This project is designed for beginners in Security Operations (SOC) who want to 
 Defense Evasion using command obfuscation
 Detection of encoded PowerShell execution
 
-  ![Task1 powershell base64 encoded command](Task1/Readme.md)
+  [Task1 powershell base64 encoded command](Task1/Readme.md)
   
 • Task 2 – Brute-Force Attack with Successful Login
 Initial Access via valid domain account
 Detection of multiple failed logons followed by success
 
- ![Task2 brute-force attack with successful logon](Task2/README.md)
+ [Task2 brute-force attack with successful logon](Task2/README.md)
  
  • Task 3 – Certutil Abuse (Living-off-the-Land)
 Command and Control via Ingress Tool Transfer
 Detection of suspicious certutil usage
 
- ![Task3 certutil.exe abuse](Task3/README.md)
+ [Task3 certutil.exe abuse](Task3/README.md)
  
 ## Conclusion
 This project focuses on understanding attacker intent, not just alert labels.
