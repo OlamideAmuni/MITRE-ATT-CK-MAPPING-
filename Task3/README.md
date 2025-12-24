@@ -27,10 +27,10 @@ Certutil.exe (Living-off-the-Land Binary)
 ID: S0160
 
 • Log Sources
-Windows Security Log
-Event ID 4688 – Process Creation
-Sysmon
-Event ID 1 – Process Creation
+- Windows Security Log
+ Event ID 4688 – Process Creation
+- Sysmon
+ Event ID 1 – Process Creation
 
 • Detection Rule (Simple)
 Alert when certutil.exe is executed from a command line or powershell
@@ -39,6 +39,6 @@ Analyst should focus on non_Administrative accessing certutil or certutil.exe is
 
 ## Why This Matters
 This activity may indicate:
-Malware download
-Payload staging
-Command-and-control setup
+• Malware download
+• Payload staging
+• Command-and-control setup
