@@ -39,6 +39,6 @@ Analyst should focus on non_Administrative accessing certutil or certutil.exe is
 
 ## Why This Matters
 This activity may indicate:
-• Malware download
-• Payload staging
-• Command-and-control setup
+- Malware download
+- Payload staging
+- Command-and-control setup
