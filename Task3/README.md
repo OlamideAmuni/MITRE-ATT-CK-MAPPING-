@@ -40,3 +40,5 @@ This activity may indicate:
 - Malware download
 - Payload staging
 - Command-and-control setup
+# Why This Is Suspicious
+On windows adversaries may abuse various legit utilities such as "certutil.exe" to download tool such as payloads or scripts from a remote server they control "C2 server"  
